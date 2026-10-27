@@ -25,6 +25,14 @@ orchestrated with Docker Compose. Categories: web, privilege escalation, forensi
   32-bit exploitation, privilege-escalation chain.
 - **[SnowCrash](https://github.com/fZpHr/snow-crash_42)**: Linux wargame with setuid, cron,
   scripting, and traffic/forensics challenges.
+- **[libasm](https://github.com/fZpHr/libasm_42)**: C standard-library functions
+  reimplemented in x86-64 assembly; the low-level fluency behind the reverse work.
+
+## Web exploitation (42)
+
+- **[Darkly](https://github.com/fZpHr/darkly_42)**: found and exploited the flaws of a
+  deliberately vulnerable site: SQL injection, path traversal, request tampering / IDOR,
+  brute force, weak cookie hashing, and open redirect.
 
 ## Cybersecurity Piscine (42)
 
@@ -45,7 +53,8 @@ Fundamentals across six projects ([repo](https://github.com/fZpHr/Piscine_Cybers
   shellcoding, out-of-bounds read/write; familiarity with ASLR, NX, stack canaries, ptrace anti-debug.
 - **Reverse engineering:** Ghidra, gdb/gef, objdump/readelf, decompiler-output analysis;
   built RE tooling (Kintsugi).
-- **Web:** recon & enumeration (gobuster, nmap), scraping, Tor hidden services, nginx.
+- **Web:** recon & enumeration (gobuster, nmap), web-app exploitation (SQL injection,
+  IDOR, path traversal), scraping, Tor hidden services, nginx.
 - **Network:** ARP spoofing / MITM, packet capture & analysis (pcap).
 - **Crypto:** TOTP/HOTP (HMAC), RSA / AES in practice.
 - **Malware:** ransomware internals (encryption, file traversal), educational.
